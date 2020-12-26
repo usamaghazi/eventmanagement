@@ -1,0 +1,27 @@
+.Unorder-list{
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(/src/Pics/phone.png);
+    
+}
+.Unorderr-list{
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(/src/Pics/email.png);
+    
+}
+.Unorderrr-list{
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(/src/Pics/clock.png);
+    
+}
+.Unorderp-list{
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(/src/Pics/location.png);
+    
+}
+.Over:hover{
+    cursor: pointer;
+}

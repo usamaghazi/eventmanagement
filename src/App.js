@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Main from './Main';
+import Aboutt from './Aboutt'
+import Login from './Pages/Login'
+import Register from './Pages/Register';
+import Logout from './Pages/Logout';
+import { Switch, Route } from 'react-router-dom'
+import { connect } from 'react-redux';
+import { Component } from 'react';
+import * as authentication from './store/actions/index';
+class App extends Component {
+    componentDidMount(){
+        this.props.onAuthCheck();
+    }   
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  render(){
+          return(
+            
+    <Switch>
+    <Route path="/" exact component={Main}/>
+    <Route path="/about" component={Aboutt}/>
+    <Route path="/login" component={Login}/>
+    <Route path="/register" component={Register}/>
+    <Route path="/logout" component={Logout}/>
+    </Switch>
+            
+          )
+        }  
 }
 
-export default App;
+const mapStateToProps = state => {
+  return {
+    token: state.idToken
+  }
+}
+const mapDispatchToProps = dispatch => {
+  return {
+    onAuthCheck: () => dispatch(authentication.authCheckState())
+  }
+}
+export default connect(mapStateToProps,mapDispatchToProps)(App)

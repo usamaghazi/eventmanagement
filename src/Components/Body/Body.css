@@ -1,0 +1,13 @@
+.Shadow{
+    box-shadow: 5px 5px 10px 0.5px rgb(145, 144, 144);
+}
+.Fixed-Image{
+    background-image: url('../../Pics/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Recent-Work:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 10%;
+}
