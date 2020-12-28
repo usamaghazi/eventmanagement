@@ -1,0 +1,8 @@
+.Gradient {
+    background: linear-gradient(to right, rgb(110, 4, 4), rgb(14, 14, 13))
+}
+.Fixedd-Image{
+    background-image: url('../Pics/login.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}

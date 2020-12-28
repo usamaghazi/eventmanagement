@@ -1,15 +1,16 @@
 import React from 'react'
+import './Footer.css'
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react'
 const Footer  = (props) => {
     return(
         <>
         <div>
         <div className="container-fluid mt-5">
-        <div className="row bg-dark pt-5 pb-4 text-center">
+        <div className="row Gradient pt-5 pb-4 text-center">
           <div className="col-md-6">
             <span><img src="images/logo.png" alt="lopo"/>
             <span 
-            style={{fontWeight:'bold',fontSize:'30px',color:'white'}}>Plazbo</span>
+            style={{fontWeight:'bold',fontSize:'30px',color:'white'}}>RN Organisers</span>
             </span>
             <hr style={{backgroundColor:'white',width:'50%'}}/>
             <p style={{color:'wheat'}}>051-2670155</p>
@@ -37,7 +38,7 @@ const Footer  = (props) => {
         </Map> 
           </div>
         </div>
-        <div className="row bg-dark" style={{marginTop:'1px'}}>
+        <div className="row Gradient" style={{marginTop:'1px'}}>
           <div className="col-12 text-center">
             <p style={{color:'wheat'}}>&copy; plazbo.com</p>
           </div>

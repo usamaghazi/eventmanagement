@@ -32,6 +32,8 @@ export const authFaill = (error) => {
 }
 
 export const logout = () => {
+    localStorage.removeItem('idToken')
+    localStorage.removeItem('localId')
     return{
         type:actionTypes.LOG_OUT,
     }
@@ -82,6 +84,11 @@ export const authforSignup = (email,password) => {
             const url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCUFAhaIFCznVcdC66h_8YxYSsH2sGAwLQ';
             axios.post(url,a)
             .then(res=>{
+                const date = new Date();
+            const time = new Date(date.setSeconds(date.getSeconds() + 3600));
+            localStorage.setItem('idToken', res.data.idToken);
+            localStorage.setItem('localId', res.data.localId);
+            localStorage.setItem('expireDate', time);
                 dispatch(authSuccesss(res.data.idToken,res.data.localId))
             })
             .catch(err=>{
@@ -106,6 +113,7 @@ export const authCheckState = () => {
             else {
                 const localId = localStorage.getItem('localId');
                 dispatch(authSuccess(idToken, localId));
+                dispatch(authforSignup(idToken, localId));
                 dispatch(checkAuthTimeOut((expirationDate.getTime() - new Date().getTime()) / 1000));
                 console.log('remaining Time of logout' + (expirationDate.getTime() - new Date().getTime()));
             }

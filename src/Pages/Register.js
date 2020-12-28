@@ -13,6 +13,7 @@ import {
   CRow
 } from '@coreui/react'
 // import axios from 'axios';
+import './Login.css';
 import { connect } from 'react-redux'
 import * as authentication from '../store/actions/index';
 
@@ -72,26 +73,29 @@ class Register extends Component {
   render(){
     let errorMessage= null;
     if(this.props.error){
-      errorMessage=<p style={{ color: 'red' }}>*{this.props.error}</p>
+      errorMessage=<p style={{ color: 'white' }}>*{this.props.error}</p>
     }
     let notMatch = null;
     if(this.state.match){
       notMatch=<p style={{ color: 'red' }}>*PASSWORD_NOT MATCHED</p>
     }
   return (
+    <>
+    <div className="Fixedd-Image">
+      <div className="gap100" style={{paddingBottom:'11%',paddingTop:'2%'}}>
     <div className="c-app c-default-layout mt-5 pt-3 flex-row align-items-center">
       <CContainer>
         <CRow className="justify-content-center">
           <CCol md="9" lg="7" xl="6">
-            <CCard className="mx-4">
+            <CCard className="mx-4 Gradient">
               <CCardBody className="p-4">
                 <CForm>
-                  <h1>Register</h1>
-                  <p className="text-muted">Create your account</p>
+                  <h1 style={{color:'white'}}>Register</h1>
+                  <p className="text-muted" style={{color:'white'}}>Create your account</p>
                   <CInputGroup className="mb-3">
                     <CInputGroupPrepend>
                       <CInputGroupText>
-                        
+                        <img src="images/lock.png" alt="lock"/>
                       </CInputGroupText>
                     </CInputGroupPrepend>
                     <CInput 
@@ -104,7 +108,9 @@ class Register extends Component {
                     </CInputGroup> 
                   <CInputGroup className="mb-3">
                     <CInputGroupPrepend>
-                      <CInputGroupText></CInputGroupText>
+                      <CInputGroupText>
+                      <img src="images/user.png" alt="user"/>
+                      </CInputGroupText>
                     </CInputGroupPrepend>
                     <CInput 
                     type="text" 
@@ -117,7 +123,7 @@ class Register extends Component {
                   <CInputGroup className="mb-3">
                     <CInputGroupPrepend>
                       <CInputGroupText>
-                        
+                      <img src="images/key.png" alt="keyy"/>
                       </CInputGroupText>
                     </CInputGroupPrepend>
                     <CInput 
@@ -131,7 +137,7 @@ class Register extends Component {
                   <CInputGroup className="mb-4">
                     <CInputGroupPrepend>
                       <CInputGroupText>
-                        
+                      <img src="images/key.png" alt="key"/>
                       </CInputGroupText>
                     </CInputGroupPrepend>
                     <CInput 
@@ -156,6 +162,9 @@ class Register extends Component {
         </CRow>
       </CContainer>
     </div>
+    </div>
+    </div>
+    </>
   )
   }
 }

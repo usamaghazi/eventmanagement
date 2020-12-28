@@ -1,6 +1,7 @@
 import React,{ Component } from 'react'
 import { Link  } from 'react-router-dom'
 // import axios from 'axios'
+import './Login.css'
 import { connect } from 'react-redux'
 import {
   CButton,
@@ -63,6 +64,9 @@ class Login extends Component {
       errorMessage = <p style={{ color: 'red' }}>*{this.props.error}</p>
     }
     return (
+      <>
+      <div className="Fixedd-Image">
+      <div className="gap100" style={{paddingBottom:'12%',paddingTop:'2%'}}>
         <div className="c-app c-default-layout mt-5 pt-5 flex-row align-items-center">
           <CContainer>
             <CRow className="justify-content-center">
@@ -76,7 +80,7 @@ class Login extends Component {
                         <CInputGroup className="mb-3">
                           <CInputGroupPrepend>
                             <CInputGroupText>
-                              
+                              <img src="images/lock.png" alt="lock"/>
                             </CInputGroupText>
                           </CInputGroupPrepend>
                           <CInput 
@@ -90,7 +94,7 @@ class Login extends Component {
                         <CInputGroup className="mb-4">
                           <CInputGroupPrepend>
                             <CInputGroupText>
-                              
+                            <img src="images/key.png" alt="lock"/>
                             </CInputGroupText>
                           </CInputGroupPrepend>
                           <CInput 
@@ -104,7 +108,7 @@ class Login extends Component {
                         <CRow>
                           <CCol xs="6">
                             <CButton 
-                            color="primary" 
+                            color="primary"
                             className="px-4"
                             disabled={!(this.state.email && this.state.password)}
                             onClick={this.clickHandler}>
@@ -114,13 +118,13 @@ class Login extends Component {
                       </CForm>
                     </CCardBody>
                   </CCard>
-                  <CCard className="text-white bg-primary py-5 d-md-down-none" style={{ width: '44%' }}>
+                  <CCard className="text-white Gradient py-5 d-md-down-none" style={{ width: '44%' }}>
                     <CCardBody className="text-center">
                       <div>
                         <h2>Sign up</h2>
                         <p>If you all ready not registered then register here</p>
                         <Link to="/register">
-                          <CButton color="primary" className="mt-3" active tabIndex={-1}>Register Now!</CButton>
+                          <CButton  className="mt-3 btn btn-outline-secondary" active tabIndex={-1}>Register Now!</CButton>
                         </Link>
                       </div>
                     </CCardBody>
@@ -130,6 +134,11 @@ class Login extends Component {
             </CRow>
           </CContainer>
         </div>
+
+
+        </div> 
+     </div>
+        </>
       )
  }
 }

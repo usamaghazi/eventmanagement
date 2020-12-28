@@ -83,7 +83,7 @@ export const Body = (props) => {
 </div>
 {/*Background Image */}
 <div className="Fixed-Image" >
-  <div style={{padding:'200px 0px',backgroundColor:'black',opacity:'0.4'}} className="gap100 text-center">
+  <div style={{padding:'200px 0px',backgroundColor:'black',opacity:'0.9'}} className="gap100 text-center">
   <h1 style={{color:'white'}}>Our Story</h1>
   <p style={{color:'white'}}>Plazbo Events is an Event management, Catering, Photography and PR,company located in Islamabad. We specialize in weddings, parties, corporate events and much more. We use our expertise to create powerful impressions in all of our endeavours, to make your event leave a lasting impression for years to come.</p>
   </div>

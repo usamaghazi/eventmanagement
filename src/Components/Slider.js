@@ -3,6 +3,8 @@ import { Carousel } from 'react-bootstrap';
 export const Slider = (props) => {
     return(
         <>
+        <div>
+        <div >
         <Carousel>
   <Carousel.Item>
     <img
@@ -11,10 +13,10 @@ export const Slider = (props) => {
       src="images/eee.jpg"
       alt="First slide"
     />
-    <Carousel.Caption className="text-center">
+    {/*<Carousel.Caption className="text-center">
       <h2 style={{color:'white',fontWeight:'bolder'}}>Concerts</h2>
       <p>We offer Concerts with creamy budget</p>
-    </Carousel.Caption>
+    </Carousel.Caption>*/}
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -24,10 +26,10 @@ export const Slider = (props) => {
       alt="Third slide"
     />
 
-    <Carousel.Caption className="text-right">
+    {/*<Carousel.Caption className="text-right">
       <h2 style={{color:'white',fontWeight:'bolder'}}>Outdoor Parties</h2>
       <p>Well decorated Setup</p>
-    </Carousel.Caption>
+    </Carousel.Caption>*/}
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -37,12 +39,14 @@ export const Slider = (props) => {
       alt="Third slide"
     />
 
-    <Carousel.Caption className="text-right">
+   {/* <Carousel.Caption className="text-right">
       <h2 style={{color:'white',fontWeight:'bolder'}}>Buffet</h2>
       <p>Serve Buffet with Taste and peacful Environment</p>
-    </Carousel.Caption>
+    </Carousel.Caption>*/}
   </Carousel.Item>
 </Carousel>
+</div>
+</div>
 {/*Jumbotron */}
 <div className="container-fuild">
   <div className="row jumbotron p-5">

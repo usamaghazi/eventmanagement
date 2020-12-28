@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 import {Navbar, Nav} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
+import './Navbarr.css';
 class Navbarr extends Component{
   render(){
     let a = null;
     if(this.props.token){
       a = (
-        <Navbar className="navbar navbar-dark bg-dark sticky-top" expand="md" >
+        <Navbar className="navbar navbar-dark Gradient sticky-top" expand="md">
 <div className="container-fluid mx-4">
 <Navbar.Brand href="#home">
 <img
@@ -17,29 +18,32 @@ class Navbarr extends Component{
     height="45"
     className="d-inline-block align-top"
   />{' '}
-  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>Plazbo</span>
+  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>RN Organizers</span>
 </Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
 <Nav className="ml-auto">
-  <Nav.Link to>
+  <Nav.Link className='Effect'>
   <NavLink
   exact
+  style={{textDecoration:'none'}}
   activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em'}} 
   to="/"> 
   <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke'}}>Home</span> 
   </NavLink>
   </Nav.Link>
-  <Nav.Link>
+  <Nav.Link className='Effect'>
   <NavLink 
+  style={{textDecoration:'none'}}
   activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em'}}
   to="/about"> 
   <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke'}}>About Us</span>
   </NavLink> 
 </Nav.Link>
-  <Nav.Link href="#linkk"> <span style={{fontStyle:'italic',fontSize:'18px'}}>Contact</span> </Nav.Link>
-  <Nav.Link>
+  {/*<Nav.Link href="#linkk"> <span style={{fontStyle:'italic',fontSize:'18px'}}>Contact</span> </Nav.Link>*/}
+  <Nav.Link className='Effect'>
   <NavLink
+  style={{textDecoration:'none'}}
   activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em'}} 
   to="/logout"> 
   <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke'}}>Log Out</span> 
@@ -60,7 +64,7 @@ class Navbarr extends Component{
     }
     else{
       a = (
-        <Navbar className="navbar navbar-dark bg-dark sticky-top" expand="md" >
+        <Navbar className="navbar navbar-dark Gradient sticky-top" expand="md" >
 <div className="container-fluid mx-4">
 <Navbar.Brand href="#home">
 <img
@@ -70,29 +74,32 @@ class Navbarr extends Component{
     height="45"
     className="d-inline-block align-top"
   />{' '}
-  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>Plazbo</span>
+  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>RN Organizers</span>
 </Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
 <Nav className="ml-auto">
-  <Nav.Link to>
+  <Nav.Link className='Effect'>
   <NavLink
+  style={{textDecoration:'none'}}
   exact
   activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em'}} 
   to="/"> 
   <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke'}}>Home</span> 
   </NavLink>
   </Nav.Link>
-  <Nav.Link>
+  <Nav.Link className='Effect'>
   <NavLink 
+  style={{textDecoration:'none'}}
   activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em'}}
   to="/about"> 
   <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke'}}>About Us</span>
   </NavLink> 
 </Nav.Link>
-  <Nav.Link href="#linkk"> <span style={{fontStyle:'italic',fontSize:'18px'}}>Contact</span> </Nav.Link>
-  <Nav.Link>
+  {/*<Nav.Link href="#linkk"> <span style={{fontStyle:'italic',fontSize:'18px'}}>Contact</span> </Nav.Link>*/}
+  <Nav.Link className='Effect'>
   <NavLink
+  style={{textDecoration:'none'}}
   activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em'}} 
   to="/login"> 
   <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke'}}>Log In</span> 
