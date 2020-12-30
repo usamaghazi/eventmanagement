@@ -8,13 +8,16 @@ const Footer  = (props) => {
         <div className="container-fluid mt-5">
         <div className="row Gradient pt-5 pb-4 text-center">
           <div className="col-md-6">
-            <span><img src="images/logo.png" alt="lopo"/>
+            <span><img src="images/polo.png"
+            width="80"
+            height="45"
+            alt="lopo"/>
             <span 
-            style={{fontWeight:'bold',fontSize:'30px',color:'white'}}>RN Organisers</span>
+            style={{fontWeight:'bold',fontSize:'30px',color:'white',fontFamily:'serif',fontStyle:'oblique'}}>DN Organizers</span>
             </span>
             <hr style={{backgroundColor:'white',width:'50%'}}/>
             <p style={{color:'wheat'}}>051-2670155</p>
-            <p style={{color:'wheat'}}>info@plazbo.com.pk</p>
+            <p style={{color:'wheat'}}>info@rn_organizers.com.pk</p>
             <p style={{color:'wheat'}}>Near City Center GPO Road, Saddar, Rawalpindi, Pakistan</p>
           </div>
           <div className="col-md-6 pl-5">

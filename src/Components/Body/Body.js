@@ -59,7 +59,7 @@ export const Body = (props) => {
       <h1>
       Check Out Our Work
       </h1>
-      <p>Plazbo Events Solution’s Creative, dynamic and Vibrant Professional Team is always ready to meet your Challenging Tasks and Projects..
+      <p>RN organizers Solution’s Creative, dynamic and Vibrant Professional Team is always ready to meet your Challenging Tasks and Projects..
       We have An Extensive Experience in WorldClass Events Planning, Events Designing, Events Decoration, Event’s Catering and Events Executions.
       </p>
       <button type="button" class="btn btn-outline-secondary btn-lg">Learn More</button>
@@ -83,9 +83,9 @@ export const Body = (props) => {
 </div>
 {/*Background Image */}
 <div className="Fixed-Image" >
-  <div style={{padding:'200px 0px',backgroundColor:'black',opacity:'0.9'}} className="gap100 text-center">
+  <div style={{padding:'200px 0px',backgroundColor:'black',opacity:'0.5'}} className="gap100 text-center">
   <h1 style={{color:'white'}}>Our Story</h1>
-  <p style={{color:'white'}}>Plazbo Events is an Event management, Catering, Photography and PR,company located in Islamabad. We specialize in weddings, parties, corporate events and much more. We use our expertise to create powerful impressions in all of our endeavours, to make your event leave a lasting impression for years to come.</p>
+  <p style={{color:'white'}}>DN organizers is an Event management, Catering, Photography and PR,company located in Islamabad. We specialize in weddings, parties, corporate events and much more. We use our expertise to create powerful impressions in all of our endeavours, to make your event leave a lasting impression for years to come.</p>
   </div>
 </div>
 <div className="container mt-5 py-3 ">
@@ -95,7 +95,7 @@ export const Body = (props) => {
             What We do
             </h1>
             <p>
-            As a premier wedding planner and event coordination company in Pakistan and abroad, Plazbo Event Management is your one stop shop for wedding and corporate events. We take the headache out of trying to choose the best professional, coordinate attendee list and developing an event that everyone will remember always
+            As a premier wedding planner and event coordination company in Pakistan and abroad, RN organizers is your one stop shop for wedding and corporate events. We take the headache out of trying to choose the best professional, coordinate attendee list and developing an event that everyone will remember always
             </p>
         </div>
         <div className="col-lg-6">
@@ -138,7 +138,7 @@ export const Body = (props) => {
     </div>
     <div className="col-lg-4">
         <img style={{height:'235px'}} 
-        className="img-fluid Recent-Work" src="images/p4.jpg" alt="wirst"/>
+        className="img-fluid Recent-Work" src="images/propss.jpg" alt="wirst"/>
     </div>
 </div>     
 </div>
@@ -160,7 +160,7 @@ export const Body = (props) => {
 </div> 
 {/*Contact Us Jumbotron */}
 <div className="container-fuild mb-0">
-  <div className="row jumbotron" style={{backgroundColor:'#FCB316 '}}>
+  <div className="row jumbotron" style={{backgroundColor:'grey'}}>
     <div className="col-md-8 col-xl-9 pl-5">
       <h2  style={{color:'white'}}>
       Do You Still Have A Question Regarding Our Services?

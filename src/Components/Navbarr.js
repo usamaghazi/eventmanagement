@@ -13,12 +13,12 @@ class Navbarr extends Component{
 <Navbar.Brand href="#home">
 <img
     alt=""
-    src="images/logo.png"
+    src="images/polo.png"
     width="45"
     height="45"
     className="d-inline-block align-top"
   />{' '}
-  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>RN Organizers</span>
+  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>DN Organizers</span>
 </Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
@@ -69,12 +69,12 @@ class Navbarr extends Component{
 <Navbar.Brand href="#home">
 <img
     alt=""
-    src="images/logo.png"
-    width="45"
+    src="images/polo.png"
+    width="80"
     height="45"
     className="d-inline-block align-top"
   />{' '}
-  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>RN Organizers</span>
+  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>DN Organizers</span>
 </Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">

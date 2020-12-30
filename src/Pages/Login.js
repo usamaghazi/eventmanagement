@@ -61,22 +61,22 @@ class Login extends Component {
  render(){
     let errorMessage = null;
     if (this.props.error) {
-      errorMessage = <p style={{ color: 'red' }}>*{this.props.error}</p>
+      errorMessage = <p style={{ color: 'white' }}>*{this.props.error}</p>
     }
     return (
       <>
       <div className="Fixedd-Image">
-      <div className="gap100" style={{paddingBottom:'12%',paddingTop:'2%'}}>
+      <div className="gap100" style={{paddingBottom:'12%',paddingTop:'1%'}}>
         <div className="c-app c-default-layout mt-5 pt-5 flex-row align-items-center">
           <CContainer>
             <CRow className="justify-content-center">
               <CCol md="8">
                 <CCardGroup>
-                  <CCard className="p-4">
+                  <CCard className="p-4  Gradient">
                     <CCardBody>
                       <CForm>
-                        <h1>Login</h1>
-                        <p className="text-muted">Sign In to your account</p>
+                        <h1 style={{color:'white'}}>Login</h1>
+                        <p className="text-muted" style={{color:'white'}}>Sign In to your account</p>
                         <CInputGroup className="mb-3">
                           <CInputGroupPrepend>
                             <CInputGroupText>
@@ -118,7 +118,7 @@ class Login extends Component {
                       </CForm>
                     </CCardBody>
                   </CCard>
-                  <CCard className="text-white Gradient py-5 d-md-down-none" style={{ width: '44%' }}>
+                  <CCard className="text-white Gradient ml-3  py-5 d-md-down-none" style={{ width: '44%' }}>
                     <CCardBody className="text-center">
                       <div>
                         <h2>Sign up</h2>

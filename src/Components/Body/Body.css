@@ -2,7 +2,7 @@
     box-shadow: 5px 5px 10px 0.5px rgb(145, 144, 144);
 }
 .Fixed-Image{
-    background-image: url('../../Pics/bg.jpg');
+    background-image: url('../../Pics/bgi.jpg');
     background-size: cover;
     background-attachment: fixed;
 }

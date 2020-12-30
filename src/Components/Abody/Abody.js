@@ -14,12 +14,12 @@ const Abody = (props) => {
                 </div>
                 <div className="col-12 mt-4">
                     <p style={{fontSize:'17px'}}>
-                    <em><b>Plazbo</b></em>, which is one of the best and leading brand name, in plazbo event management, Weddings, Parties and Functions Planning , designing, decoration and Catering Management industry, having solutions for your any type of events, which could be a family events, like weddings, Birthday Parties, Get-Together, Family Parties, Corporate Events, Gala Nights, Conferences, Exhibitions, Seminars or any other type of Event.
+                    <em><b>DN organizers</b></em>, which is one of the best and leading brand name, in plazbo event management, Weddings, Parties and Functions Planning , designing, decoration and Catering Management industry, having solutions for your any type of events, which could be a family events, like weddings, Birthday Parties, Get-Together, Family Parties, Corporate Events, Gala Nights, Conferences, Exhibitions, Seminars or any other type of Event.
                     </p>
                 </div>
                 <div className="col-12 mt-3">
                     <p style={{fontSize:'17px'}}>
-                    <em><b>Plazbo Events management</b></em> Provides dedicated, sincerely committed and highly profiled wedding management and events management services, specializing in planning and coordinating luxury weddings for Pakistani families being locally or internationally. We pride ourselves in putting on bespoke event around The Pakistan. Many of our services are provided in-house and are of the highest standards. We have also established strong relationships with specialist suppliers to the Event Management industry and more specifically the wedding industry. We know our suppliers both personally and professionally, therefore we have every faith that impeccable results will be delivered to each of our Overseas Pakistani Families. We love to here your queries for any of your future related event. ” As we don’t see the sky as the the limit” We simply best and unique Weddings Professional for creative and classic wedding ideas.
+                    <em><b>DN organizers</b></em> Provides dedicated, sincerely committed and highly profiled wedding management and events management services, specializing in planning and coordinating luxury weddings for Pakistani families being locally or internationally. We pride ourselves in putting on bespoke event around The Pakistan. Many of our services are provided in-house and are of the highest standards. We have also established strong relationships with specialist suppliers to the Event Management industry and more specifically the wedding industry. We know our suppliers both personally and professionally, therefore we have every faith that impeccable results will be delivered to each of our Overseas Pakistani Families. We love to here your queries for any of your future related event. ” As we don’t see the sky as the the limit” We simply best and unique Weddings Professional for creative and classic wedding ideas.
                     </p>
                 </div>
             </div>
@@ -48,7 +48,7 @@ const Abody = (props) => {
                    </ul>
                    <ul className="Unorderr-list">
                    <li className="Over" style={{paddingTop:'0px'}}>
-                   <span><a href="#black">info@plazbo.com.pk</a></span>
+                   <span><a href="#black">info@rn_organizers.com.pk</a></span>
                    </li>
                    </ul>
                    <ul className="Unorderp-list">
@@ -87,7 +87,7 @@ const Abody = (props) => {
                 </div>
                 <div className="col-12 mt-2">
                     <p style={{fontSize:'17px'}}>
-                    At <em>Plazbo</em> Weddings & Events Solutions, we understand the industry we work in and that is why we are able to offer such a professional service. We keep up-to-date with all the latest trends so we know what’s hot and what’s not!
+                    At <em>DN organizers</em> Weddings & Events Solutions, we understand the industry we work in and that is why we are able to offer such a professional service. We keep up-to-date with all the latest trends so we know what’s hot and what’s not!
                     </p>
                 </div>
                 <div className="col-12 mt-2">
