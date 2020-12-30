@@ -82,7 +82,7 @@ const Abody = (props) => {
             <div className="row">
                 <div className="col-12">
                     <p style={{fontSize:'17px'}}>
-                    Over the years, <em>Plazbo</em> Weddings & Events Solutions has built a reputation within the industry for being innovative, professional and entirely flexible in reacting to our clients’ individual requirements. Although we have the expertise of bringing fresh new ideas to the table, we also value your ideas and suggestions. Our job is to cater to your needs and requirements, which is something that all of our Event Managers are fully aware of at all times.
+                    Over the years, <em>RN organizers,</em> Weddings & Events Solutions has built a reputation within the industry for being innovative, professional and entirely flexible in reacting to our clients’ individual requirements. Although we have the expertise of bringing fresh new ideas to the table, we also value your ideas and suggestions. Our job is to cater to your needs and requirements, which is something that all of our Event Managers are fully aware of at all times.
                     </p>
                 </div>
                 <div className="col-12 mt-2">
