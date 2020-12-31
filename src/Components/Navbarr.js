@@ -14,7 +14,7 @@ class Navbarr extends Component{
 <img
     alt=""
     src="images/polo.png"
-    width="45"
+    width="80"
     height="45"
     className="d-inline-block align-top"
   />{' '}
@@ -29,7 +29,7 @@ class Navbarr extends Component{
   style={{textDecoration:'none'}}
   activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em'}} 
   to="/"> 
-  <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke'}}>Home</span> 
+  <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke',}}>Home</span> 
   </NavLink>
   </Nav.Link>
   <Nav.Link className='Effect'>
@@ -83,7 +83,7 @@ class Navbarr extends Component{
   <NavLink
   style={{textDecoration:'none'}}
   exact
-  activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em'}} 
+  activeStyle={{borderBottom: 'solid 3px #fff', paddingBottom: '1.56em',":hover":{color: "black"}}} 
   to="/"> 
   <span style={{fontStyle:'italic',fontSize:'18px', color:'whitesmoke'}}>Home</span> 
   </NavLink>
