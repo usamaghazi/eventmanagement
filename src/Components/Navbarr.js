@@ -11,7 +11,9 @@ class Navbarr extends Component{
         <Navbar className="navbar navbar-dark Gradient sticky-top" expand="md">
 <div className="container-fluid mx-4">
 <Navbar.Brand>
-<NavLink to="/">
+<NavLink
+style={{textDecoration:'none'}} 
+to="/">
 <img
     alt=""
     src="images/polo.png"
@@ -19,7 +21,7 @@ class Navbarr extends Component{
     height="45"
     className="d-inline-block align-top"
   />{' '}
-  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>DN Organizers</span>
+  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique',color:'white'}}>DN Organizers</span>
   </NavLink>
   </Navbar.Brand>
 
@@ -69,7 +71,10 @@ class Navbarr extends Component{
       a = (
         <Navbar className="navbar navbar-dark Gradient sticky-top" expand="md" >
 <div className="container-fluid mx-4">
-<Navbar.Brand href="#home">
+<Navbar.Brand>
+<NavLink
+style={{textDecoration:'none'}} 
+to="/">
 <img
     alt=""
     src="images/polo.png"
@@ -77,8 +82,9 @@ class Navbarr extends Component{
     height="45"
     className="d-inline-block align-top"
   />{' '}
-  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>DN Organizers</span>
-</Navbar.Brand>
+  <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique',color:'white'}}>DN Organizers</span>
+  </NavLink>
+  </Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
 <Nav className="ml-auto">
