@@ -43,7 +43,7 @@ const Footer  = (props) => {
         </div>
         <div className="row Gradient" style={{marginTop:'1px'}}>
           <div className="col-12 text-center">
-            <p style={{color:'wheat'}}>&copy; plazbo.com</p>
+            <p style={{color:'wheat'}}>&copy; rnorganizer.com</p>
           </div>
         </div>
         </div>

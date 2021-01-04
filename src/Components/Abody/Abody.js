@@ -5,13 +5,13 @@ const Abody = (props) => {
     return(
         <>
         <div className="container mt-5">
-            <div className="row Gradient Radius">
-                <div className="col-12 text-center bg-dark pt-5" style={{paddingLeft:'0px',paddingRight:'0px',borderRadius:'20%',backgroundImage:'url(images/e.jpg)'}}>
+            <div className="row Radius" style={{backgroundColor:'black'}}>
+                <div className="col-12 text-center bg-dark pt-5 Gradient" style={{paddingLeft:'0px',paddingRight:'0px',borderRadius:'20%'}}>
                     <h1 
                     style={{color:'white',fontSize:'40px',fontFamily:'cursive', fontStyle:'unset', fontWeight:'bolder'}}>
                     About Us
                     </h1>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#BC2D17 " fill-opacity="1" d="M0,160L30,144C60,128,120,96,180,101.3C240,107,300,149,360,138.7C420,128,480,64,540,74.7C600,85,660,171,720,202.7C780,235,840,213,900,186.7C960,160,1020,128,1080,101.3C1140,75,1200,53,1260,64C1320,75,1380,117,1410,138.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="white" fill-opacity="1" d="M0,160L30,144C60,128,120,96,180,101.3C240,107,300,149,360,138.7C420,128,480,64,540,74.7C600,85,660,171,720,202.7C780,235,840,213,900,186.7C960,160,1020,128,1080,101.3C1140,75,1200,53,1260,64C1320,75,1380,117,1410,138.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
                 </div>
                 <div className="col-12 mt-4 Gradient">
                     <p style={{fontSize:'17px', color:'white'}}>
@@ -25,7 +25,35 @@ const Abody = (props) => {
                 </div>
             </div>
         </div>
-        <div className="container mt-0 pt-5 pb-5" style={{backgroundColor:'black'}}>
+        
+        <div className="container mt-0 pt-0 pb-5">
+        <div className="row text-center p-3 pb-5 mb-5" style={{backgroundImage:'url(images/dark.jpg)'}}>
+        <div className="col-md-12 pt-4 pb-4">
+            <h1 style={{color:'white'}}>MEET THE TEAM</h1>
+            <hr style={{border:'1px solid white',width:'50%'}}/>
+        </div>
+        <div className="col-md-4">
+            <div>
+                <img src="images/girl1.jpg" alt="girls" style={{borderRadius:'50%',width:'50%',height:'200px'}}/>
+                <h2 style={{color:'white',marginTop:'30px'}}>Aleshba</h2>
+                <h6 style={{color:'white',marginTop:'5px',textDecoration:'underline'}}>Chief Organizer</h6>
+            </div>
+        </div>
+        <div className="col-md-4">
+        <div>
+            <img src="images/boy.jpg" alt="girls" style={{borderRadius:'50%',width:'50%',height:'200px'}}/>
+            <h2 style={{color:'white',marginTop:'30px'}}>Ramish</h2>
+            <h6 style={{color:'white',marginTop:'5px',textDecoration:'underline'}}>C.E.0</h6>
+        </div>
+    </div>
+    <div className="col-md-4">
+            <div>
+                <img src="images/gril2.jpg" alt="girls" style={{borderRadius:'50%',width:'50%',height:'200px'}}/>
+                <h2 style={{color:'white',marginTop:'30px'}}>Rabbiya</h2>
+                <h6 style={{color:'white',marginTop:'5px',textDecoration:'underline'}}>Managing Director</h6>
+            </div>
+        </div> 
+        </div>
             <div className="row">
                 <div className="col-md-7">
                 <Map 
@@ -42,7 +70,7 @@ const Abody = (props) => {
                 <div className="col-md-5 pt-4">
                    <ul className="Unorder-list">
                    <li style={{paddingTop:'0px'}}>
-                   <span style={{color:'white',paddingTop:'0px'}}>
+                   <span style={{color:'#7f7f7f',paddingTop:'0px'}}>
                    +92-3214268177 | +92-3244921459 | +92-3334645869 | +923024682710 | +92-3084580827
                    </span>
                    </li>
@@ -54,14 +82,14 @@ const Abody = (props) => {
                    </ul>
                    <ul className="Unorderp-list">
                    <li style={{paddingTop:'0px'}}>
-                   <span style={{color:'white'}}>
+                   <span style={{color:'#7f7f7f'}}>
                    Near City Center GPO Road, Saddar, Rawalpindi, Pakistan
                    </span>
                    </li>
                    </ul> 
                    <ul className="Unorderrr-list">
                    <li style={{paddingTop:'0px'}}>
-                   <span style={{color:'white'}}>Mon to Sat - 1:00Pm to 7:00pm
+                   <span style={{color:'#7f7f7f'}}>Mon to Sat - 1:00Pm to 7:00pm
                    (Sunday Closed)</span>
                    </li>
                    </ul> 
