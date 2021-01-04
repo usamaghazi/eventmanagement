@@ -66,7 +66,7 @@ class Login extends Component {
     return (
       <>
       <div className="Fixedd-Image">
-      <div className="gap100" style={{paddingBottom:'12%',paddingTop:'1%'}}>
+      <div className="gap100" style={{paddingBottom:'16%',paddingTop:'1%'}}>
         <div className="c-app c-default-layout mt-5 pt-5 flex-row align-items-center">
           <CContainer>
             <CRow className="justify-content-center">

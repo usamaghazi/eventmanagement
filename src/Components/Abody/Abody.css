@@ -25,3 +25,15 @@
 .Over:hover{
     cursor: pointer;
 }
+
+.Gradient {
+    background: linear-gradient(to right,rgb(244, 44, 44 ), rgb(110, 4, 4), rgb(14, 14, 13));
+}
+.Radius{
+    border-top-left-radius:20%;
+    border-top-right-radius:20%;
+}
+.Radiuss{
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
+}

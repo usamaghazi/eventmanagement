@@ -22,7 +22,7 @@ export const Slider = (props) => {
     <img
       className="d-block w-100 img-fluid"
       style={{height:'450px'}}
-      src="images/out.jpg"
+      src="images/new.jpg"
       alt="Third slide"
     />
 

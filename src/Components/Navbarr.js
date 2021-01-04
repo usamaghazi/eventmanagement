@@ -10,7 +10,8 @@ class Navbarr extends Component{
       a = (
         <Navbar className="navbar navbar-dark Gradient sticky-top" expand="md">
 <div className="container-fluid mx-4">
-<Navbar.Brand href="#home">
+<Navbar.Brand>
+<NavLink to="/">
 <img
     alt=""
     src="images/polo.png"
@@ -19,7 +20,9 @@ class Navbarr extends Component{
     className="d-inline-block align-top"
   />{' '}
   <span style={{fontWeight:'bold', fontSize:'35px', fontFamily:'serif',fontStyle:'oblique'}}>DN Organizers</span>
-</Navbar.Brand>
+  </NavLink>
+  </Navbar.Brand>
+
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
 <Nav className="ml-auto">
